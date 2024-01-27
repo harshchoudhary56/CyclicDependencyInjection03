@@ -10,7 +10,7 @@ import in.ineuron.comp.B;
 public class TestApp {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+		
 		System.out.println("*******Container starting**********");
 		DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 		XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
